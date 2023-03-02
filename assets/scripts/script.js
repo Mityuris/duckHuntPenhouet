@@ -16,7 +16,7 @@ startButton.addEventListener('click', () => //hide la couche avec bouton start, 
         startGame();
     }
 })
-
+console.log('salut');
 function startGame() { //depart de la partie
     addGlobalListener(); //rends tte la page clickable
     setInterval(() => { //appele la fonction spawnDuck tte les secondes
