@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Duck Hunt</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    <div class="game">
+        <div class="startScreen"> 
+            <label>Name: </label>
+            <input type="text" class="name">
+            <button class="startButton">Start</button>
+        </div>
+        <div class="mainGame">
+            <img src="assets/images/sky.png" id="sky" draggable="false">
+            <img src="assets/images/grass.png" id="grass" draggable="false">
+            <p class="hud1">score: <span class="score">0</span></p>
+            <p class="hud2">multiplier: x<span class="multiplier">1</span></p>
+            <div class="clip">
+                <img src="assets/images/bullet.png" class="ammo" value="10">
+                <img src="assets/images/bullet.png" class="ammo" value="9">
+                <img src="assets/images/bullet.png" class="ammo" value="8">
+                <img src="assets/images/bullet.png" class="ammo" value="7">
+                <img src="assets/images/bullet.png" class="ammo" value="6">
+                <img src="assets/images/bullet.png" class="ammo" value="5">
+                <img src="assets/images/bullet.png" class="ammo" value="4">
+                <img src="assets/images/bullet.png" class="ammo" value="3">
+                <img src="assets/images/bullet.png" class="ammo" value="2">
+                <img src="assets/images/bullet.png" class="ammo" value="1">
+            </div>
+        </div>
+        <div class="endGame">
+            <p class="endScore">End Score: <span class="name">Invite</span> a eu <span class="score">0</span> pts</p>
+            <div class="leaderboard">
+
+            </div>
+        </div>
+    </div>
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
